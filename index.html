@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <h1 align="center">PERPUSTAKAAN JAWIR</h1>
+        <table border="solid" align="center">
+            <tr>
+                <th >Nomor</th>
+                <th >Nama Buku</th>
+                <th >Category</th>
+                <th >Jumlah Buku</th>
+            </tr>
+            <tr>
+                <td align="center">1.</td>
+                <td align="center">Kisah Hidupku</td>
+                <td align="center">Novel</td>
+                <td align="center">20</td>
+            </tr>
+            <tr>
+                <td align="center">2.</td>
+                <td align="center">Tutorial masak</td>
+                <td align="center">Resep Makanan</td>
+                <td align="center">10</td>
+            </tr>
+            <tr>
+                <td align="center">3.</td>
+                <td align="center">Bidadari Bermata Bening</td>
+                <td align="center">Novel</td>
+                <td align="center">13</td>
+            </tr>
+            <tr>
+                <td align="center">4.</td>
+                <td align="center">Pertambahan & Pengurangan</td>
+                <td align="center">Matematika</td>
+                <td align="center">24</td>
+            </tr>
+            <tr>
+                <td align="center">5.</td>
+                <td align="center">Kumpulan Sholawat</td>
+                <td align="center">Religi</td>
+                <td align="center">15</td>
+            </tr>
+        </table>
+        <br><br>
+        <form action="" method="">
+            <fieldset >
+                <p><label for="name">Name:</label> <input type="text" id="name" placeholder="Your Name" required></p>
+                <p><label for="email">Email:</label> <input type="email" id="email" placeholder="Email@example.com" required></p>
+                <p><label for="phone">Phone:</label> 
+                <input type="number" id="phone" pattern=".{11,}" title="Minimal 11 Nomor" placeholder="085702050002" required></p>
+            </fieldset>
+            <br>
+            
+            <b>Pilih Buku yang ingin dipinjam: </b> <br>
+            <input type="radio" name="pinjam">Kisah Hidupku <br> 
+            <input type="radio" name="pinjam">Tutorial Masak <br>
+            <input type="radio" name="pinjam">Bidadari Bermata Bening <br>
+            <input type="radio" name="pinjam">Pertambahan & Pengurangan <br>
+            <input type="radio" name="pinjam">Kumpulan Sholawat <br><br>
+            <input type="submit">
+        </form>
+</body>
+</html>
